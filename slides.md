@@ -188,7 +188,7 @@ authors = ["you@example.com"]
 
 ## Learn More
 
-_[rust-lang.org](https//rust-lang.org)_
+_[rust-lang.org](https://rust-lang.org)_
 
 ___
 

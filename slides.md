@@ -25,9 +25,7 @@
 ### Linux or Mac:
 
 ```
-
-  curl https://sh.rustup.rs -sSf | sh
-
+  $ curl https://sh.rustup.rs -sSf | sh
 ```
 
 ***
@@ -259,10 +257,9 @@ _[github.com/madeso/ride](https://github.com/madeso/ride)_
 ## functions
 
 ```
-fn name(arg: Type) -> ReturnType
- {
-  statements;
- }
+  fn name(arg: Type) -> ReturnType {
+      statements;
+  }
 ```
 
 ---
@@ -324,10 +321,10 @@ fn name(arg: Type) -> ReturnType
 ## Manifest
 
 ```
-[package]
-name = "hello_world" # the name of the package
-version = "0.1.0"    # the current version
-authors = ["you@example.com"] # author
+  [package]
+  name = "hello_world" # the name of the package
+  version = "0.1.0"    # the current version
+  authors = ["you@example.com"] # author
 ```
 
 ---

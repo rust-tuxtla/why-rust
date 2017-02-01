@@ -2,7 +2,7 @@
 <!-- .element: style="margin-top: -5%;" -->
 ## Introduction
 
-#### [Mario Garcia](http://mattdark.github.io) · [@mariogmd](https://twitter.com/mariogmd)
+#### [Mario Garcia](http://mariog.xyz) · [@mariogmd](https://twitter.com/mariogmd)
 
 ---
 
@@ -26,20 +26,66 @@
 
 ```
 
-curl -sSf https://static.rust-lang.org/rustup.sh | sh
+  curl https://sh.rustup.rs -sSf | sh
 
 ```
+
+***
+
+```
+  rustc --version
+  rustc 1.14.0 (e8a012324 2016-12-16)
+```
+
+---
+
+## IDEs
+
+***
+
+## Atom
+
+_[atom.io](https://atom.io)_
+
+***
+
+## SolidOak
+
+_[sekao.net/solidoak](https://sekao.net/solidoak)_
+
+***
+
+## Ride
+
+_[github.com/madeso/ride](https://github.com/madeso/ride)_
 
 ---
 
 ## Hello world!
 
+***
+
+## Print text
+
 ```
-//main.rs
-fn main()
- {
-  println!("Hello world!");
- }
+  println!("string {} literal", expressions);
+```
+
+***
+
+```
+  // hello.rs
+  fn main() {
+      println!("Hello, world!");
+  }
+```
+
+***
+
+## Comments
+
+```
+  // This is a comment
 ```
 
 ---
@@ -47,9 +93,9 @@ fn main()
 ## Running
 
 ```
-  $ rustc main.rs
-  $ ./main
-  Hello world!
+  $ rustc hello.rs
+  $ ./hello
+  Hello, world!
 ```
 
 ---
@@ -64,13 +110,57 @@ fn main()
   let name = expression;
 ```
 
+***
+
+## Example
+
+```
+  fn main () {
+      let a = 7;
+      let b = 8;
+      println!("The sum is: {}", a+b);
+  }
+```
+
+***
+
+## Mutability
+
+```
+  let mut nombre = expression;
+```
+
 ---
 
 ## Primitive Types
 
 ---
 
-## Booleans
+## Numeric Types
+
+- i8, i16, i32, i64
+- u8, u16, u32, u64<!-- .element: class="fragment" -->
+- f32, f64<!-- .element: class="fragment" -->
+- isize, usize<!-- .element: class="fragment" -->
+
+***
+
+```
+  let x = 42; // x has type i32
+  let y = 1.0; // y has type f64
+```
+
+---
+
+## String
+
+```
+  let x = 'x';
+```
+
+---
+
+## Boolean
 
 ```
   let x = true;
@@ -79,19 +169,32 @@ fn main()
 
 ---
 
-## char
+## Decision making
 
 ```
-  let x = 'x';
+  if condicion {
+      expressions;
+  }
+  else {
+      expressions;
+  }
 ```
 
----
+***
 
-## Numeric Types
+## Example
 
 ```
-  let x = 42; // x has type i32
-  let y = 1.0; // y has type f64
+  fn main() {
+      let a = 8;
+      let b = 12;
+      if a > b {
+          println!("{} > {}", a, b);
+      }
+      else {
+          println!("{} > {}", b, a);
+      }
+  }
 ```
 
 ---
@@ -101,6 +204,54 @@ fn main()
 ```
   let a = [1, 2, 3]; // a: [i32; 3]
   let mut m = [1, 2, 3]; // m: [i32; 3]
+```
+
+---
+
+## Loops
+
+***
+
+```
+  for i in x..n {
+      expressions;
+  }
+```
+
+***
+
+```
+  while condition {
+      expressions;
+  }
+```
+
+***
+
+## Examples
+
+***
+
+```
+  fn main () {
+      let a = [1, 2, 3, 4, 5];
+      for i in 0..5 {
+          println!("{}", a[i]);
+      }
+  }
+```
+
+***
+
+```
+  fn main () {
+      let a = [1, 2, 3, 4, 5];
+      let mut i = 0;
+      while i < 5 {
+          println!("{}", a[i]);
+          i = i +1;
+      }
+  }
 ```
 
 ---
@@ -116,18 +267,18 @@ fn name(arg: Type) -> ReturnType
 
 ---
 
-## function call
+## Example
 
 ```
-  fn_name(args);
-```
-
----
-
-## println
-
-```
-  println!("string {} literal", expressions);
+  fn main () {
+      let a = 9;
+      let b = 15;
+      println("La suma es: {}", suma(a, b));
+  }
+  fn sum(a: i32, b: i32) -> i32 {
+      let c = a + b;
+      return c;
+  }
 ```
 
 ---
@@ -152,6 +303,22 @@ fn name(arg: Type) -> ReturnType
   $ cargo new hello_world --bin
 ```
 
+***
+
+```
+  ~/hello_world$ ls -R 
+```
+
+***
+
+```
+  .:
+  Cargo.toml src
+
+  ./src:
+  main.rs
+```
+
 ---
 
 ## Manifest
@@ -159,8 +326,8 @@ fn name(arg: Type) -> ReturnType
 ```
 [package]
 name = "hello_world" # the name of the package
-version = "0.1.0"    # the current version, obeying semver
-authors = ["you@example.com"]
+version = "0.1.0"    # the current version
+authors = ["you@example.com"] # author
 ```
 
 ---
@@ -174,9 +341,31 @@ authors = ["you@example.com"]
 
 ---
 
-## Servo
+## Web frameworks
+
+***
+
+## Iron
+
+_[ironframework.io](https://ironframework.io)_
+
+***
+
+## Rocket
+
+_[rocket.rs](https://rocket.rs)_
 
 ---
+
+## Projects
+
+---
+
+## Servo
+
+_[servo.org](https://servo.org)_
+
+***
 
 ## What is Servo?
 
@@ -186,9 +375,23 @@ authors = ["you@example.com"]
 
 ---
 
+## intermezzOS
+
+_[intermezzos.github.io](https://intermezzoss.github.io)_
+
+***
+
+## What is intermezzOS?
+
+***
+
+#### intermezzOS is a teaching operating system, specifically focused on introducing systems programming concepts to experienced developers from other areas of programming.
+
+---
+
 ## Learn More
 
-_[rust-lang.org](https://rust-lang.org)_
+_[rust-lang.org](https//rust-lang.org)_
 
 ___
 

@@ -389,6 +389,19 @@ _[intermezzos.github.io](https://intermezzoss.github.io)_
 
 ---
 
+## Meetups
+
+***
+
+### Rust MX
+
+_[meetup.com/es/Rust-MX](https//meetup.com/es/Rust-MX)_
+
+___
+
+[@rustlang_mx](https://twitter.com/rustlang_mx)
+
+
 ## Learn More
 
 _[rust-lang.org](https//rust-lang.org)_

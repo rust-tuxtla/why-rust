@@ -386,6 +386,20 @@ _[intermezzos.github.io](https://intermezzoss.github.io)_
 
 ---
 
+## Redox
+
+_[redox-os.org](https://redox-os.org)_
+
+***
+
+## What is Redox?
+
+***
+
+#### Redox is a Unix-like Operating System written in Rust, aiming to bring the innovations of Rust to a modern microkernel and full set of applications.
+
+---
+
 ## Meetups
 
 ***

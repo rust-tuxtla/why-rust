@@ -392,6 +392,10 @@ _[redox-os.org](https://redox-os.org)_
 
 ***
 
+![](img/redox.png)
+
+***
+
 ## What is Redox?
 
 ***

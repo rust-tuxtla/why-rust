@@ -30,9 +30,15 @@
 
 ***
 
+- Available for Windows, GNU/Linux, Mac
+- Support for X86, X86-64 & ARM<!-- .element: class="fragment" -->
+- Rust 1.18.0 (stable)<!-- .element: class="fragment" -->
+
+***
+
 ```
   $ rustc --version
-  rustc 1.17.0 (56124baa9 2017-04-24)
+  rustc 1.18.0 (03fc9d622 2017-06-06)
 ```
 
 ---
@@ -59,9 +65,9 @@ _[github.com/madeso/ride](https://github.com/madeso/ride)_
 
 ---
 
-## Hello world!
+## Rust Sintax
 
-***
+---
 
 ## Print text
 
@@ -95,10 +101,6 @@ _[github.com/madeso/ride](https://github.com/madeso/ride)_
   $ ./hello
   Hello, world!
 ```
-
----
-
-## Rust Sintax
 
 ---
 
@@ -335,22 +337,6 @@ _[github.com/madeso/ride](https://github.com/madeso/ride)_
   $ cargo build
   $ cargo run
 ```
-
----
-
-## Web frameworks
-
-***
-
-## Iron
-
-_[ironframework.io](https://ironframework.io)_
-
-***
-
-## Rocket
-
-_[rocket.rs](https://rocket.rs)_
 
 ---
 

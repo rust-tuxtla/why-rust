@@ -32,13 +32,13 @@
 
 - Available for Windows, GNU/Linux, Mac
 - Support for X86, X86-64 & ARM<!-- .element: class="fragment" -->
-- Rust 1.18.0 (stable)<!-- .element: class="fragment" -->
+- Rust 1.20.0 (stable)<!-- .element: class="fragment" -->
 
 ***
 
 ```
   $ rustc --version
-  rustc 1.18.0 (03fc9d622 2017-06-06)
+  rustc 1.20.0 (f3d6973f4 2017-08-27)
 ```
 
 ---
@@ -326,7 +326,7 @@ _[github.com/madeso/ride](https://github.com/madeso/ride)_
   [package]
   name = "hello_world" # the name of the package
   version = "0.1.0"    # the current version
-  authors = ["you@example.com"] # author
+  authors = ["mattdark"] # author
 ```
 
 ---
@@ -394,6 +394,12 @@ _[redox-os.org](https://redox-os.org)_
 
 ***
 
+![](img/rustmx-logo.png)
+<!-- .element: style="margin-top: -5%;" --> 
+### Rust MX
+
+***
+
 ### Rust MX
 
 _[meetup.com/es/Rust-MX](https//meetup.com/es/Rust-MX)_
@@ -401,6 +407,16 @@ _[meetup.com/es/Rust-MX](https//meetup.com/es/Rust-MX)_
 ___
 
 [@rustlang_mx](https://twitter.com/rustlang_mx)
+
+***
+
+### Rust Tuxtla
+
+_[meetup.com/es/Rust-Tuxtla](https//meetup.com/es/Rust-Tuxtla)_
+
+___
+
+[rust-tuxtla.github.io](https://rust-tuxtla.github.io)
 
 ---
 
@@ -411,5 +427,7 @@ _[rust-lang.org](https//rust-lang.org)_
 ___
 
 [@mariogmd](https://twitter.com/mariogmd)
+
+[fb.com/iscmariog](https://fb.com/iscmariog)
 
 mattdark@mozilla-mexico.org
